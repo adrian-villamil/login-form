@@ -10,9 +10,9 @@ body {
 .contenedor {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
     background-color: white;
-    padding: 20px;
+    padding: 20px 50px;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -25,7 +25,6 @@ h1 {
 }
 
 .inputs {
-    padding: 8px 6px;
     width: 100%;
     border: none;
 }
@@ -39,20 +38,63 @@ h1 {
     flex-direction: row;
     align-items: center;
     margin: 10px 0;
-    padding: 0 6px;
+    padding: 8px;
     border: 1px solid black;
     border-radius: 8px;
+}
+
+a {
+    text-align: end;
+    color: rgb(0, 141, 197);
+    text-decoration: none;
 }
 
 .login-button {
     cursor: pointer;
     font-weight: bold;
     margin: 10px 0;
+    padding: 8px;
     background-color: rgb(0, 186, 199);
     color: white;
     border-radius: 8px;
 }
 
-i {
+p {
+    text-align: center;
+}
+
+.fa-user, .fa-lock {
     font-size: 1.1em;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+
+.iconos-social:nth-child(1) {
+    background-color: rgb(59, 89, 152);
+}
+
+.iconos-social:nth-child(2) {
+    background-color: rgb(29, 161, 242);
+}
+
+.iconos-social:nth-child(3) {
+    background-color: rgb(234, 67, 53);
+}
+
+.fab {
+    font-size: 1.3em;
 }
