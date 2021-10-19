@@ -35,7 +35,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     margin: 10px 0;
-    padding: 8px 0;
+    padding: 10px 0;
     border: 1px solid gray;
     border-radius: 8px;
 }
@@ -58,7 +58,7 @@ h1 {
     cursor: pointer;
     font-weight: bolder;
     margin: 10px 0 40px 0;
-    padding: 8px;
+    padding: 10px;
     background-image: var(--gradiente);
     color: white;
     border-width: 0;
